@@ -8,7 +8,7 @@ Set up (will have more steps when Postgres stuff is implemented):
 
 Guide to `options.json`:
 
-```
+```json
 {
   "Eris": {
     // Options to call to the Eris library
