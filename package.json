@@ -1,0 +1,28 @@
+{
+  "author": "ddlr",
+  "description": "A Discord bot built atop douxieme",
+  "bugs": "https://github.com/ddlr/douxieme-deux/issues",
+  "dependencies": {
+    "douxieme": "github:ddlr/douxieme#blep",
+    "request-promise-native": "^1.0.4",
+    "require-reload": "^0.2.2"
+  },
+  "homepage": "https://github.com/ddlr/douxieme-deux",
+  "keywords": [
+    "discord",
+    "eris",
+    "bot"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "douxieme-deux",
+  "repository": {
+    "type": "git",
+    "url": "github:ddlr/douxieme-deux"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
