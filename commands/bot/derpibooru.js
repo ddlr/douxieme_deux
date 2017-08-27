@@ -30,7 +30,7 @@ async function fetchPage(page, tags) {
 class Derpibooru extends BaseCommand {
   constructor(bot, type) {
     super(bot, type)
-    this.aliases = ['dp']
+    this.aliases = ['dp', 'dpc']
   }
 
   get name() {
