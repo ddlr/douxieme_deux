@@ -6,6 +6,7 @@ class Gimme extends BaseCommand {
   constructor(bot, type) {
     super(bot, type)
     this.needsPrefix = false
+    this.cooldown = 3
   }
 
   get name() {

@@ -31,6 +31,7 @@ class Derpibooru extends BaseCommand {
   constructor(bot, type) {
     super(bot, type)
     this.aliases = ['dp', 'dpc']
+    this.cooldown = 3
   }
 
   get name() {
